@@ -9,7 +9,6 @@
    <uservisible>false</uservisible>
    <packagelist>
       <packagereq type="mandatory">authconfig</packagereq>
-      <packagereq type="mandatory">authconfig</packagereq>
       <packagereq type="mandatory">btrfs-progs</packagereq>
       <packagereq type="mandatory">chkconfig</packagereq>
       <packagereq type="mandatory">chrony</packagereq>
@@ -45,8 +44,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="mandatory">amanda-client</packagereq>
-	          <packagereq type="mandatory">amanda-client</packagereq>
+      <packagereq type="mandatory">amanda-client</packagereq>
       <packagereq type="optional">bacula-client</packagereq>
    </packagelist>
   </group>
@@ -273,8 +271,7 @@
    <default>false</default>
    <uservisible>true</uservisible>
    <packagelist>
-         <packagereq type="mandatory">compat-db47</packagereq>
-	          <packagereq type="mandatory">compat-db47</packagereq>
+      <packagereq type="mandatory">compat-db47</packagereq>
       <packagereq type="mandatory">compat-glibc</packagereq>
       <packagereq type="mandatory">compat-libcap1</packagereq>
       <packagereq type="mandatory">compat-libf2c-34</packagereq>
@@ -302,8 +299,7 @@
    <default>false</default>
    <uservisible>true</uservisible>
    <packagelist>
-         <packagereq type="optional">elinks</packagereq>
-	          <packagereq type="optional">elinks</packagereq>
+      <packagereq type="optional">elinks</packagereq>
       <packagereq type="optional">fetchmail</packagereq>
       <packagereq type="optional">ftp</packagereq>
       <packagereq type="optional">irssi</packagereq>
@@ -410,7 +406,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="default">abrt-addon-ccpp</packagereq>
+      <packagereq type="default">abrt-addon-ccpp</packagereq>
       <packagereq type="default">abrt-addon-python</packagereq>
       <packagereq type="default">abrt-cli</packagereq>
       <packagereq type="default">crash-gcore-command</packagereq>
@@ -425,7 +421,6 @@
       <packagereq type="default">trace-cmd</packagereq>
       <packagereq type="default">valgrind</packagereq>
       <packagereq type="mandatory">gdb</packagereq>
-	          <packagereq type="mandatory">gdb</packagereq>
       <packagereq type="mandatory">kexec-tools</packagereq>
       <packagereq type="mandatory">latrace</packagereq>
       <packagereq type="mandatory">libreport-cli</packagereq>
@@ -446,8 +441,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="default">abrt-desktop</packagereq>
-	          <packagereq type="default">abrt-desktop</packagereq>
+      <packagereq type="default">abrt-desktop</packagereq>
       <packagereq type="default">libreport-gtk</packagereq>
       <packagereq type="optional">abrt-gui</packagereq>
       <packagereq type="optional">bltk</packagereq>
@@ -464,9 +458,8 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="mandatory">lrzsz</packagereq>
+      <packagereq type="mandatory">lrzsz</packagereq>
       <packagereq type="mandatory">ModemManager</packagereq>
-	          <packagereq type="mandatory">ModemManager</packagereq>
       <packagereq type="mandatory">ppp</packagereq>
       <packagereq type="mandatory">usb_modeswitch-data</packagereq>
       <packagereq type="mandatory">wvdial</packagereq>
@@ -484,8 +477,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="default">adcli</packagereq>
-	          <packagereq type="default">adcli</packagereq>
+      <packagereq type="default">adcli</packagereq>
       <packagereq type="default">ipa-client</packagereq>
       <packagereq type="default">oddjob-mkhomedir</packagereq>
       <packagereq type="default">realmd</packagereq>
@@ -508,8 +500,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="mandatory">emacs</packagereq>
-	          <packagereq type="mandatory">emacs</packagereq>
+      <packagereq type="mandatory">emacs</packagereq>
       <packagereq type="optional">ctags-etags</packagereq>
       <packagereq type="optional">emacs-auctex</packagereq>
       <packagereq type="optional">emacs-gnuplot</packagereq>
@@ -523,8 +514,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="default">cjkuni-uming-fonts</packagereq>
-	          <packagereq type="default">cjkuni-uming-fonts</packagereq>
+      <packagereq type="default">cjkuni-uming-fonts</packagereq>
       <packagereq type="default">dejavu-sans-fonts</packagereq>
       <packagereq type="default">dejavu-sans-mono-fonts</packagereq>
       <packagereq type="default">dejavu-serif-fonts</packagereq>
@@ -680,9 +670,8 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="mandatory">brasero-nautilus</packagereq>
+      <packagereq type="mandatory">brasero-nautilus</packagereq>
       <packagereq type="mandatory">brasero</packagereq>
-	          <packagereq type="mandatory">brasero</packagereq>
       <packagereq type="mandatory">rhythmbox</packagereq>
       <packagereq type="mandatory">shotwell</packagereq>
    </packagelist>
@@ -755,7 +744,6 @@
       <packagereq type="mandatory">gvfs-goa</packagereq>
       <packagereq type="mandatory">gvfs-gphoto2</packagereq>
       <packagereq type="mandatory">gvfs-mtp</packagereq>
-      <packagereq type="mandatory">gvfs-obexftp</packagereq>
       <packagereq type="mandatory">gvfs-smb</packagereq>
       <packagereq type="mandatory">initial-setup</packagereq>
       <packagereq type="mandatory">libcanberra-gtk2</packagereq>
@@ -769,13 +757,10 @@
       <packagereq type="mandatory">nautilus</packagereq>
       <packagereq type="mandatory">nautilus-sendto</packagereq>
       <packagereq type="mandatory">NetworkManager-libreswan</packagereq>
-	          <packagereq type="mandatory">NetworkManager-libreswan</packagereq>
       <packagereq type="mandatory">nm-connection-editor</packagereq>
       <packagereq type="mandatory">orca</packagereq>
       <packagereq type="mandatory">PackageKit-command-not-found</packagereq>
       <packagereq type="mandatory">PackageKit-gtk3-module</packagereq>
-      <packagereq type="mandatory">polkit-gnome</packagereq>
-      <packagereq type="mandatory">redhat-access-gui</packagereq>
       <packagereq type="mandatory">sane-backends-drivers-scanners</packagereq>
       <packagereq type="mandatory">seahorse</packagereq>
       <packagereq type="mandatory">setroubleshoot</packagereq>
@@ -1003,7 +988,6 @@
       <packagereq type="mandatory">oxygen-gtk</packagereq>
       <packagereq type="mandatory">phonon-backend-gstreamer</packagereq>
       <packagereq type="mandatory">plasma-scriptengine-python</packagereq>
-      <packagereq type="mandatory">redhat-access-gui</packagereq>
       <packagereq type="mandatory">setroubleshoot</packagereq>
       <packagereq type="mandatory">sweeper</packagereq>
       <packagereq type="mandatory">system-config-date</packagereq>
