@@ -350,9 +350,6 @@
       <packagereq type="default">NetworkManager</packagereq>
       <packagereq type="default">NetworkManager-tui</packagereq>
       <packagereq type="default">postfix</packagereq>
-      <packagereq type="default">ql2100-firmware</packagereq>
-      <packagereq type="default">ql2200-firmware</packagereq>
-      <packagereq type="default">ql23xx-firmware</packagereq>
       <packagereq type="mandatory">audit</packagereq>
       <packagereq type="mandatory">basesystem</packagereq>
       <packagereq type="mandatory">bash</packagereq>
