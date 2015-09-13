@@ -1,5 +1,5 @@
 <?xml version='1.0' encoding='UTF-8'?>
-<!DOCTYPE comps PUBLIC "-//Yor//DTD Comps info//EN" "comps.dtd">
+<!DOCTYPE comps PUBLIC "-//CentOS//DTD Comps info//EN" "comps.dtd">
 <comps>
   <group>
    <id>anaconda-tools</id>
@@ -8,8 +8,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="mandatory">authconfig</packagereq>
-	          <packagereq type="mandatory">authconfig</packagereq>
+      <packagereq type="mandatory">authconfig</packagereq>
       <packagereq type="mandatory">btrfs-progs</packagereq>
       <packagereq type="mandatory">chkconfig</packagereq>
       <packagereq type="mandatory">chrony</packagereq>
@@ -46,8 +45,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="mandatory">amanda-client</packagereq>
-	          <packagereq type="mandatory">amanda-client</packagereq>
+      <packagereq type="mandatory">amanda-client</packagereq>
       <packagereq type="optional">bacula-client</packagereq>
    </packagelist>
   </group>
@@ -58,7 +56,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq requires="ruby" type="conditional">rubygem-abrt</packagereq>
+      <packagereq requires="ruby" type="conditional">rubygem-abrt</packagereq>
       <packagereq type="default">abrt-addon-ccpp</packagereq>
       <packagereq type="default">abrt-addon-python</packagereq>
       <packagereq type="default">abrt-cli</packagereq>
@@ -118,11 +116,9 @@
       <packagereq type="default">xfsdump</packagereq>
       <packagereq type="default">xz</packagereq>
       <packagereq type="default">yum-langpacks</packagereq>
-      <packagereq type="default">yum-plugin-security</packagereq>
       <packagereq type="default">yum-utils</packagereq>
       <packagereq type="default">zip</packagereq>
       <packagereq type="mandatory">acl</packagereq>
-	          <packagereq type="mandatory">acl</packagereq>
       <packagereq type="mandatory">at</packagereq>
       <packagereq type="mandatory">attr</packagereq>
       <packagereq type="mandatory">authconfig</packagereq>
@@ -276,8 +272,7 @@
    <default>false</default>
    <uservisible>true</uservisible>
    <packagelist>
-         <packagereq type="mandatory">compat-db47</packagereq>
-	          <packagereq type="mandatory">compat-db47</packagereq>
+      <packagereq type="mandatory">compat-db47</packagereq>
       <packagereq type="mandatory">compat-glibc</packagereq>
       <packagereq type="mandatory">compat-libcap1</packagereq>
       <packagereq type="mandatory">compat-libf2c-34</packagereq>
@@ -305,8 +300,7 @@
    <default>false</default>
    <uservisible>true</uservisible>
    <packagelist>
-         <packagereq type="optional">elinks</packagereq>
-	          <packagereq type="optional">elinks</packagereq>
+      <packagereq type="optional">elinks</packagereq>
       <packagereq type="optional">fetchmail</packagereq>
       <packagereq type="optional">ftp</packagereq>
       <packagereq type="optional">irssi</packagereq>
@@ -322,13 +316,29 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
+      <packagereq type="default">aic94xx-firmware</packagereq>
+      <packagereq type="default">alsa-firmware</packagereq>
+      <packagereq type="default">atmel-firmware</packagereq>
+      <packagereq type="default">bfa-firmware</packagereq>
+      <packagereq type="default">dracut-config-rescue</packagereq>
+      <packagereq type="default">iscan-firmware</packagereq>
+      <packagereq type="default">isight-firmware</packagereq>
+      <packagereq type="default">ivtv-firmware</packagereq>
+      <packagereq type="default">kernel-tools</packagereq>
+      <packagereq type="default">libertas-sd8686-firmware</packagereq>
+      <packagereq type="default">libertas-sd8787-firmware</packagereq>
+      <packagereq type="default">libertas-usb8388-firmware</packagereq>
+      <packagereq type="default">linux-firmware</packagereq>
+      <packagereq type="default">microcode_ctl</packagereq>
+      <packagereq type="default">midisport-firmware</packagereq>
       <packagereq type="default">NetworkManager</packagereq>
-      <packagereq type="default">authconfig</packagereq>
-      <packagereq type="default">firewalld</packagereq>
+      <packagereq type="default">NetworkManager-tui</packagereq>
       <packagereq type="default">postfix</packagereq>
+      <packagereq type="default">zd1211-firmware</packagereq>
       <packagereq type="mandatory">audit</packagereq>
       <packagereq type="mandatory">basesystem</packagereq>
       <packagereq type="mandatory">bash</packagereq>
+      <packagereq type="mandatory">btrfs-progs</packagereq>
       <packagereq type="mandatory">coreutils</packagereq>
       <packagereq type="mandatory">cronie</packagereq>
       <packagereq type="mandatory">curl</packagereq>
@@ -336,11 +346,16 @@
       <packagereq type="mandatory">e2fsprogs</packagereq>
       <packagereq type="mandatory">filesystem</packagereq>
       <packagereq type="mandatory">glibc</packagereq>
+      <packagereq type="mandatory">grubby</packagereq>
       <packagereq type="mandatory">hostname</packagereq>
       <packagereq type="mandatory">initscripts</packagereq>
       <packagereq type="mandatory">iproute</packagereq>
+      <packagereq type="mandatory">iprutils</packagereq>
+      <packagereq type="mandatory">iptables</packagereq>
       <packagereq type="mandatory">iputils</packagereq>
+      <packagereq type="mandatory">irqbalance</packagereq>
       <packagereq type="mandatory">kbd</packagereq>
+      <packagereq type="mandatory">kexec-tools</packagereq>
       <packagereq type="mandatory">less</packagereq>
       <packagereq type="mandatory">man-db</packagereq>
       <packagereq type="mandatory">ncurses</packagereq>
@@ -359,9 +374,12 @@
       <packagereq type="mandatory">shadow-utils</packagereq>
       <packagereq type="mandatory">sudo</packagereq>
       <packagereq type="mandatory">systemd</packagereq>
+      <packagereq type="mandatory">tar</packagereq>
+      <packagereq type="mandatory">tuned</packagereq>
       <packagereq arch="armhfp" type="mandatory">uboot-tools</packagereq>
       <packagereq type="mandatory">util-linux</packagereq>
       <packagereq type="mandatory">vim-minimal</packagereq>
+      <packagereq type="mandatory">xfsprogs</packagereq>
       <packagereq type="mandatory">yum</packagereq>
       <packagereq type="optional">dracut-config-generic</packagereq>
       <packagereq type="optional">dracut-fips-aesni</packagereq>
@@ -379,7 +397,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="default">abrt-addon-ccpp</packagereq>
+      <packagereq type="default">abrt-addon-ccpp</packagereq>
       <packagereq type="default">abrt-addon-python</packagereq>
       <packagereq type="default">abrt-cli</packagereq>
       <packagereq type="default">crash-gcore-command</packagereq>
@@ -394,7 +412,6 @@
       <packagereq type="default">trace-cmd</packagereq>
       <packagereq type="default">valgrind</packagereq>
       <packagereq type="mandatory">gdb</packagereq>
-	          <packagereq type="mandatory">gdb</packagereq>
       <packagereq type="mandatory">kexec-tools</packagereq>
       <packagereq type="mandatory">latrace</packagereq>
       <packagereq type="mandatory">libreport-cli</packagereq>
@@ -415,8 +432,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="default">abrt-desktop</packagereq>
-	          <packagereq type="default">abrt-desktop</packagereq>
+      <packagereq type="default">abrt-desktop</packagereq>
       <packagereq type="default">libreport-gtk</packagereq>
       <packagereq type="optional">abrt-gui</packagereq>
       <packagereq type="optional">bltk</packagereq>
@@ -433,9 +449,8 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="mandatory">lrzsz</packagereq>
+      <packagereq type="mandatory">lrzsz</packagereq>
       <packagereq type="mandatory">ModemManager</packagereq>
-	          <packagereq type="mandatory">ModemManager</packagereq>
       <packagereq type="mandatory">ppp</packagereq>
       <packagereq type="mandatory">usb_modeswitch-data</packagereq>
       <packagereq type="mandatory">wvdial</packagereq>
@@ -453,8 +468,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="default">adcli</packagereq>
-	          <packagereq type="default">adcli</packagereq>
+      <packagereq type="default">adcli</packagereq>
       <packagereq type="default">ipa-client</packagereq>
       <packagereq type="default">oddjob-mkhomedir</packagereq>
       <packagereq type="default">realmd</packagereq>
@@ -477,8 +491,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="mandatory">emacs</packagereq>
-	          <packagereq type="mandatory">emacs</packagereq>
+      <packagereq type="mandatory">emacs</packagereq>
       <packagereq type="optional">ctags-etags</packagereq>
       <packagereq type="optional">emacs-auctex</packagereq>
       <packagereq type="optional">emacs-gnuplot</packagereq>
@@ -492,8 +505,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="default">cjkuni-uming-fonts</packagereq>
-	          <packagereq type="default">cjkuni-uming-fonts</packagereq>
+      <packagereq type="default">cjkuni-uming-fonts</packagereq>
       <packagereq type="default">dejavu-sans-fonts</packagereq>
       <packagereq type="default">dejavu-sans-mono-fonts</packagereq>
       <packagereq type="default">dejavu-serif-fonts</packagereq>
@@ -648,9 +660,8 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="mandatory">brasero-nautilus</packagereq>
+      <packagereq type="mandatory">brasero-nautilus</packagereq>
       <packagereq type="mandatory">brasero</packagereq>
-	          <packagereq type="mandatory">brasero</packagereq>
       <packagereq type="mandatory">rhythmbox</packagereq>
       <packagereq type="mandatory">shotwell</packagereq>
    </packagelist>
@@ -662,7 +673,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="mandatory">abrt-desktop</packagereq>
+      <packagereq type="mandatory">abrt-desktop</packagereq>
       <packagereq type="mandatory">at-spi2-atk</packagereq>
       <packagereq type="mandatory">at-spi2-core</packagereq>
       <packagereq type="mandatory">avahi</packagereq>
@@ -723,7 +734,6 @@
       <packagereq type="mandatory">gvfs-goa</packagereq>
       <packagereq type="mandatory">gvfs-gphoto2</packagereq>
       <packagereq type="mandatory">gvfs-mtp</packagereq>
-      <packagereq type="mandatory">gvfs-obexftp</packagereq>
       <packagereq type="mandatory">gvfs-smb</packagereq>
       <packagereq type="mandatory">initial-setup</packagereq>
       <packagereq type="mandatory">libcanberra-gtk2</packagereq>
@@ -737,13 +747,11 @@
       <packagereq type="mandatory">nautilus</packagereq>
       <packagereq type="mandatory">nautilus-sendto</packagereq>
       <packagereq type="mandatory">NetworkManager-libreswan</packagereq>
-	          <packagereq type="mandatory">NetworkManager-libreswan</packagereq>
+      <packagereq type="mandatory">NetworkManager-wifi</packagereq>
       <packagereq type="mandatory">nm-connection-editor</packagereq>
       <packagereq type="mandatory">orca</packagereq>
       <packagereq type="mandatory">PackageKit-command-not-found</packagereq>
       <packagereq type="mandatory">PackageKit-gtk3-module</packagereq>
-      <packagereq type="mandatory">polkit-gnome</packagereq>
-      <packagereq type="mandatory">redhat-access-gui</packagereq>
       <packagereq type="mandatory">sane-backends-drivers-scanners</packagereq>
       <packagereq type="mandatory">seahorse</packagereq>
       <packagereq type="mandatory">setroubleshoot</packagereq>
@@ -774,9 +782,8 @@
    <default>false</default>
    <uservisible>true</uservisible>
    <packagelist>
-         <packagereq requires="system-config-users" type="conditional">system-config-users-docs</packagereq>
+      <packagereq requires="system-config-users" type="conditional">system-config-users-docs</packagereq>
       <packagereq type="optional">authconfig-gtk</packagereq>
-	          <packagereq type="optional">authconfig-gtk</packagereq>
       <packagereq type="optional">gnome-disk-utility</packagereq>
       <packagereq type="optional">gnome-packagekit</packagereq>
       <packagereq type="optional">policycoreutils-gui</packagereq>
@@ -795,7 +802,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="default">gimp-data-extras</packagereq>
+      <packagereq type="default">gimp-data-extras</packagereq>
       <packagereq type="default">gimp-help</packagereq>
       <packagereq type="default">gutenprint-plugin</packagereq>
       <packagereq type="default">inkscape</packagereq>
@@ -804,7 +811,6 @@
       <packagereq type="default">sane-frontends</packagereq>
       <packagereq type="default">xsane-gimp</packagereq>
       <packagereq type="mandatory">gimp</packagereq>
-	          <packagereq type="mandatory">gimp</packagereq>
       <packagereq type="optional">dcraw</packagereq>
       <packagereq type="optional">ImageMagick</packagereq>
       <packagereq type="optional">netpbm-progs</packagereq>
@@ -817,8 +823,6 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="mandatory">open-vm-tools-desktop</packagereq>
-	          <packagereq type="mandatory">open-vm-tools-desktop</packagereq>
       <packagereq type="mandatory">qemu-guest-agent</packagereq>
       <packagereq type="mandatory">spice-vdagent</packagereq>
    </packagelist>
@@ -830,7 +834,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq requires="gnome-session" type="conditional">imsettings-gsettings</packagereq>
+      <packagereq requires="gnome-session" type="conditional">imsettings-gsettings</packagereq>
       <packagereq requires="gtk2" type="conditional">gtk2-immodule-xim</packagereq>
       <packagereq requires="gtk2" type="conditional">ibus-gtk2</packagereq>
       <packagereq requires="gtk3" type="conditional">gtk3-immodule-xim</packagereq>
@@ -838,7 +842,6 @@
       <packagereq requires="qt" type="conditional">ibus-qt</packagereq>
       <packagereq requires="qt" type="conditional">imsettings-qt</packagereq>
       <packagereq type="default">ibus-chewing</packagereq>
-	          <packagereq type="default">ibus-chewing</packagereq>
       <packagereq type="default">ibus-hangul</packagereq>
       <packagereq type="default">ibus-kkc</packagereq>
       <packagereq type="default">ibus-libpinyin</packagereq>
@@ -860,8 +863,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="default">ekiga</packagereq>
-	          <packagereq type="default">ekiga</packagereq>
+      <packagereq type="default">ekiga</packagereq>
       <packagereq type="default">empathy</packagereq>
       <packagereq type="default">evolution-ews</packagereq>
       <packagereq type="default">evolution-help</packagereq>
@@ -877,8 +879,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="default">firefox</packagereq>
-	          <packagereq type="default">firefox</packagereq>
+      <packagereq type="default">firefox</packagereq>
       <packagereq type="default">icedtea-web</packagereq>
       <packagereq type="default">totem-mozplugin</packagereq>
    </packagelist>
@@ -890,8 +891,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="mandatory">java-1.7.0-openjdk</packagereq>
-	          <packagereq type="mandatory">java-1.7.0-openjdk</packagereq>
+      <packagereq type="mandatory">java-1.7.0-openjdk</packagereq>
       <packagereq type="optional">java-1.6.0-openjdk</packagereq>
       <packagereq type="optional">system-switch-java</packagereq>
    </packagelist>
@@ -903,8 +903,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="mandatory">kcoloredit</packagereq>
-	          <packagereq type="mandatory">kcoloredit</packagereq>
+      <packagereq type="mandatory">kcoloredit</packagereq>
       <packagereq type="mandatory">kdeartwork-screensavers</packagereq>
       <packagereq type="mandatory">kdenetwork-krdc</packagereq>
       <packagereq type="mandatory">kdenetwork-krfb</packagereq>
@@ -919,9 +918,8 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq requires="pinentry" type="conditional">pinentry-qt</packagereq>
+      <packagereq requires="pinentry" type="conditional">pinentry-qt</packagereq>
       <packagereq type="mandatory">abrt-desktop</packagereq>
-	          <packagereq type="mandatory">abrt-desktop</packagereq>
       <packagereq type="mandatory">akonadi-mysql</packagereq>
       <packagereq type="mandatory">akonadi</packagereq>
       <packagereq type="mandatory">ark</packagereq>
@@ -968,11 +966,11 @@
       <packagereq type="mandatory">ksysguard</packagereq>
       <packagereq type="mandatory">kwallet</packagereq>
       <packagereq type="mandatory">kwrite</packagereq>
+      <packagereq type="mandatory">NetworkManager-wifi</packagereq>
       <packagereq type="mandatory">okular</packagereq>
       <packagereq type="mandatory">oxygen-gtk</packagereq>
       <packagereq type="mandatory">phonon-backend-gstreamer</packagereq>
       <packagereq type="mandatory">plasma-scriptengine-python</packagereq>
-      <packagereq type="mandatory">redhat-access-gui</packagereq>
       <packagereq type="mandatory">setroubleshoot</packagereq>
       <packagereq type="mandatory">sweeper</packagereq>
       <packagereq type="mandatory">system-config-date</packagereq>
@@ -987,8 +985,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="mandatory">dragon</packagereq>
-	          <packagereq type="mandatory">dragon</packagereq>
+      <packagereq type="mandatory">dragon</packagereq>
       <packagereq type="mandatory">k3b</packagereq>
    </packagelist>
   </group>
@@ -999,8 +996,7 @@
    <default>false</default>
    <uservisible>true</uservisible>
    <packagelist>
-         <packagereq type="optional">authd</packagereq>
-	          <packagereq type="optional">authd</packagereq>
+      <packagereq type="optional">authd</packagereq>
       <packagereq type="optional">cups-lpd</packagereq>
       <packagereq type="optional">finger</packagereq>
       <packagereq type="optional">finger-server</packagereq>
@@ -1030,8 +1026,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="default">libXmu</packagereq>
-	          <packagereq type="default">libXmu</packagereq>
+      <packagereq type="default">libXmu</packagereq>
       <packagereq type="default">libXp</packagereq>
       <packagereq type="default">motif</packagereq>
       <packagereq type="default">xorg-x11-apps</packagereq>
@@ -1059,8 +1054,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="default">tn5250</packagereq>
-	          <packagereq type="default">tn5250</packagereq>
+      <packagereq type="default">tn5250</packagereq>
       <packagereq type="default">x3270-text</packagereq>
       <packagereq type="default">x3270-x11</packagereq>
    </packagelist>
@@ -1072,7 +1066,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq requires="gstreamer1" type="conditional">gstreamer1-plugins-bad-free</packagereq>
+      <packagereq requires="gstreamer1" type="conditional">gstreamer1-plugins-bad-free</packagereq>
       <packagereq requires="gstreamer1" type="conditional">gstreamer1-plugins-good</packagereq>
       <packagereq type="mandatory">alsa-plugins-pulseaudio</packagereq>
       <packagereq type="mandatory">alsa-utils</packagereq>
@@ -1080,7 +1074,6 @@
       <packagereq type="mandatory">gstreamer-plugins-bad-free</packagereq>
       <packagereq type="mandatory">gstreamer-plugins-good</packagereq>
       <packagereq type="mandatory">PackageKit-gstreamer-plugin</packagereq>
-	          <packagereq type="mandatory">PackageKit-gstreamer-plugin</packagereq>
       <packagereq type="mandatory">pulseaudio-module-x11</packagereq>
       <packagereq type="mandatory">pulseaudio</packagereq>
       <packagereq type="mandatory">pulseaudio-utils</packagereq>
@@ -1094,8 +1087,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="mandatory">autofs</packagereq>
-	          <packagereq type="mandatory">autofs</packagereq>
+      <packagereq type="mandatory">autofs</packagereq>
       <packagereq type="mandatory">cgdcbxd</packagereq>
       <packagereq type="mandatory">cifs-utils</packagereq>
       <packagereq type="mandatory">device-mapper-multipath</packagereq>
@@ -1118,11 +1110,10 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="default">libreswan</packagereq>
+      <packagereq type="default">libreswan</packagereq>
       <packagereq type="default">nmap-ncat</packagereq>
       <packagereq type="default">socat</packagereq>
       <packagereq type="mandatory">tcpdump</packagereq>
-	          <packagereq type="mandatory">tcpdump</packagereq>
       <packagereq type="optional">arptables</packagereq>
       <packagereq type="optional">arpwatch</packagereq>
       <packagereq type="optional">dnssec-trigger</packagereq>
@@ -1150,8 +1141,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="default">libreoffice-calc</packagereq>
-	          <packagereq type="default">libreoffice-calc</packagereq>
+      <packagereq type="default">libreoffice-calc</packagereq>
       <packagereq type="default">libreoffice-draw</packagereq>
       <packagereq type="default">libreoffice-emailmerge</packagereq>
       <packagereq type="default">libreoffice-graphicfilter</packagereq>
@@ -1174,7 +1164,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="default">dstat</packagereq>
+      <packagereq type="default">dstat</packagereq>
       <packagereq type="default">iotop</packagereq>
       <packagereq type="default">iowatcher</packagereq>
       <packagereq type="default">latencytop</packagereq>
@@ -1184,7 +1174,6 @@
       <packagereq type="default">perf</packagereq>
       <packagereq type="default">powertop</packagereq>
       <packagereq type="mandatory">blktrace</packagereq>
-	          <packagereq type="mandatory">blktrace</packagereq>
       <packagereq type="mandatory">sysstat</packagereq>
       <packagereq type="optional">hdparm</packagereq>
       <packagereq type="optional">libpfm</packagereq>
@@ -1202,13 +1191,12 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="default">perl-core</packagereq>
+      <packagereq type="default">perl-core</packagereq>
       <packagereq type="default">perl-Crypt-SSLeay</packagereq>
       <packagereq type="default">perl-XML-Dumper</packagereq>
       <packagereq type="default">perl-XML-Grove</packagereq>
       <packagereq type="default">perl-XML-Twig</packagereq>
       <packagereq type="mandatory">perl</packagereq>
-	          <packagereq type="mandatory">perl</packagereq>
       <packagereq type="optional">perl-App-cpanminus</packagereq>
       <packagereq type="optional">perl-Date-Calc</packagereq>
       <packagereq type="optional">perl-Date-Manip</packagereq>
@@ -1229,7 +1217,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="default">colord</packagereq>
+      <packagereq type="default">colord</packagereq>
       <packagereq type="default">gutenprint-cups</packagereq>
       <packagereq type="default">gutenprint</packagereq>
       <packagereq type="default">hpijs</packagereq>
@@ -1238,7 +1226,6 @@
       <packagereq type="default">system-config-printer</packagereq>
       <packagereq type="default">system-config-printer-udev</packagereq>
       <packagereq type="mandatory">cups</packagereq>
-	          <packagereq type="mandatory">cups</packagereq>
       <packagereq type="mandatory">cups-pk-helper</packagereq>
       <packagereq type="mandatory">enscript</packagereq>
       <packagereq type="mandatory">ghostscript-cups</packagereq>
@@ -1253,8 +1240,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="optional">freerdp</packagereq>
-	          <packagereq type="optional">freerdp</packagereq>
+      <packagereq type="optional">freerdp</packagereq>
       <packagereq type="optional">kdenetwork-krdc</packagereq>
       <packagereq type="optional">spice-xpi</packagereq>
       <packagereq type="optional">tigervnc</packagereq>
@@ -1268,8 +1254,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="default">net-snmp</packagereq>
-	          <packagereq type="default">net-snmp</packagereq>
+      <packagereq type="default">net-snmp</packagereq>
       <packagereq type="default">net-snmp-utils</packagereq>
       <packagereq type="default">openlmi-account</packagereq>
       <packagereq type="default">openlmi-hardware</packagereq>
@@ -1323,10 +1308,9 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="mandatory">rubygem-bundler</packagereq>
+      <packagereq type="mandatory">rubygem-bundler</packagereq>
       <packagereq type="mandatory">ruby-irb</packagereq>
       <packagereq type="mandatory">ruby</packagereq>
-	          <packagereq type="mandatory">ruby</packagereq>
    </packagelist>
   </group>
   <group>
@@ -1336,8 +1320,7 @@
    <default>false</default>
    <uservisible>true</uservisible>
    <packagelist>
-         <packagereq type="optional">aide</packagereq>
-	          <packagereq type="optional">aide</packagereq>
+      <packagereq type="optional">aide</packagereq>
       <packagereq type="optional">hmaccalc</packagereq>
       <packagereq type="optional">openscap</packagereq>
       <packagereq type="optional">openscap-utils</packagereq>
@@ -1356,8 +1339,7 @@
    <default>false</default>
    <uservisible>true</uservisible>
    <packagelist>
-         <packagereq type="default">coolkey</packagereq>
-	          <packagereq type="default">coolkey</packagereq>
+      <packagereq type="default">coolkey</packagereq>
       <packagereq type="default">esc</packagereq>
       <packagereq type="default">pam_pkcs11</packagereq>
       <packagereq type="default">pcsc-lite-ccid</packagereq>
@@ -1371,11 +1353,10 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq requires="evince" type="conditional">evince-dvi</packagereq>
+      <packagereq requires="evince" type="conditional">evince-dvi</packagereq>
       <packagereq type="mandatory">docbook5-schemas</packagereq>
       <packagereq type="mandatory">docbook5-style-xsl</packagereq>
       <packagereq type="mandatory">docbook-slides</packagereq>
-	          <packagereq type="mandatory">docbook-slides</packagereq>
       <packagereq type="mandatory">docbook-style-xsl</packagereq>
       <packagereq type="mandatory">docbook-utils</packagereq>
       <packagereq type="mandatory">docbook-utils-pdf</packagereq>
@@ -1397,9 +1378,8 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="default">virt-top</packagereq>
+      <packagereq type="default">virt-top</packagereq>
       <packagereq type="mandatory">gnome-boxes</packagereq>
-	          <packagereq type="mandatory">gnome-boxes</packagereq>
       <packagereq type="mandatory">virt-install</packagereq>
       <packagereq type="mandatory">virt-manager</packagereq>
       <packagereq type="mandatory">virt-viewer</packagereq>
@@ -1414,8 +1394,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="mandatory">libvirt</packagereq>
-	          <packagereq type="mandatory">libvirt</packagereq>
+      <packagereq type="mandatory">libvirt</packagereq>
       <packagereq type="mandatory">qemu-kvm</packagereq>
       <packagereq type="optional">qemu-kvm-tools</packagereq>
    </packagelist>
@@ -1427,9 +1406,8 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="mandatory">libvirt-client</packagereq>
+      <packagereq type="mandatory">libvirt-client</packagereq>
       <packagereq type="mandatory">libvirt</packagereq>
-	          <packagereq type="mandatory">libvirt</packagereq>
       <packagereq type="mandatory">virt-who</packagereq>
       <packagereq type="optional">fence-virtd-libvirt</packagereq>
       <packagereq type="optional">fence-virtd-multicast</packagereq>
@@ -1447,8 +1425,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="default">libguestfs</packagereq>
-	          <packagereq type="default">libguestfs</packagereq>
+      <packagereq type="default">libguestfs</packagereq>
       <packagereq type="optional">libguestfs-java</packagereq>
       <packagereq type="optional">libguestfs-tools-c</packagereq>
       <packagereq type="optional">libguestfs-tools</packagereq>
@@ -1461,8 +1438,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="mandatory">glx-utils</packagereq>
-	          <packagereq type="mandatory">glx-utils</packagereq>
+      <packagereq type="mandatory">glx-utils</packagereq>
       <packagereq type="mandatory">mesa-dri-drivers</packagereq>
       <packagereq type="mandatory">plymouth-system-theme</packagereq>
       <packagereq type="mandatory">spice-vdagent</packagereq>
@@ -1486,12 +1462,11 @@
    <default>true</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="default">fence-agents-all</packagereq>
+      <packagereq type="default">fence-agents-all</packagereq>
       <packagereq type="default">omping</packagereq>
       <packagereq type="default">pacemaker-doc</packagereq>
       <packagereq type="default">pcs</packagereq>
       <packagereq type="mandatory">lvm2-cluster</packagereq>
-	          <packagereq type="mandatory">lvm2-cluster</packagereq>
       <packagereq type="mandatory">pacemaker</packagereq>
       <packagereq type="optional">lvm2-cluster-standalone</packagereq>
    </packagelist>
@@ -1503,7 +1478,7 @@
    <default>true</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="mandatory">gfs2-utils</packagereq>
+      <packagereq type="mandatory">gfs2-utils</packagereq>
       <packagereq type="default">dlm</packagereq>
       <packagereq type="optional">cmirror</packagereq>
       <packagereq type="optional">cmirror-standalone</packagereq>
@@ -1517,7 +1492,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="mandatory">alsa-lib-devel</packagereq>
+      <packagereq type="mandatory">alsa-lib-devel</packagereq>
       <packagereq type="mandatory">audit-libs-devel</packagereq>
       <packagereq type="mandatory">binutils-devel</packagereq>
       <packagereq type="mandatory">boost-devel</packagereq>
@@ -1604,7 +1579,6 @@
       <packagereq type="mandatory">pulseaudio-libs-devel</packagereq>
       <packagereq type="mandatory">pygobject3-devel</packagereq>
       <packagereq type="mandatory">PyQt4-devel</packagereq>
-	          <packagereq type="mandatory">PyQt4-devel</packagereq>
       <packagereq type="mandatory">python-devel</packagereq>
       <packagereq type="mandatory">python-setuptools</packagereq>
       <packagereq type="mandatory">qt3-MySQL</packagereq>
@@ -1636,7 +1610,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="mandatory">amanda-server</packagereq>
+      <packagereq type="mandatory">amanda-server</packagereq>
       <packagereq type="mandatory">mt-st</packagereq>
       <packagereq type="mandatory">mtx</packagereq>
    </packagelist>
@@ -1658,7 +1632,7 @@
    <default>false</default>
    <uservisible>true</uservisible>
    <packagelist>
-         <packagereq type="default">byacc</packagereq>
+      <packagereq type="default">byacc</packagereq>
       <packagereq type="default">cscope</packagereq>
       <packagereq type="default">ctags</packagereq>
       <packagereq type="default">diffstat</packagereq>
@@ -1674,7 +1648,6 @@
       <packagereq type="default">swig</packagereq>
       <packagereq type="default">systemtap</packagereq>
       <packagereq type="mandatory">autoconf</packagereq>
-	          <packagereq type="mandatory">autoconf</packagereq>
       <packagereq type="mandatory">automake</packagereq>
       <packagereq type="mandatory">binutils</packagereq>
       <packagereq type="mandatory">bison</packagereq>
@@ -1726,9 +1699,8 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="optional">krb5-server-ldap</packagereq>
+      <packagereq type="optional">krb5-server-ldap</packagereq>
       <packagereq type="optional">krb5-server</packagereq>
-	          <packagereq type="optional">krb5-server</packagereq>
       <packagereq type="optional">migrationtools</packagereq>
       <packagereq type="optional">openldap-servers</packagereq>
       <packagereq type="optional">samba</packagereq>
@@ -1741,8 +1713,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="default">bind-chroot</packagereq>
-	          <packagereq type="default">bind-chroot</packagereq>
+      <packagereq type="default">bind-chroot</packagereq>
       <packagereq type="optional">bind-dyndb-ldap</packagereq>
       <packagereq type="optional">unbound</packagereq>
    </packagelist>
@@ -1754,8 +1725,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="mandatory">cifs-utils</packagereq>
-	          <packagereq type="mandatory">cifs-utils</packagereq>
+      <packagereq type="mandatory">cifs-utils</packagereq>
       <packagereq type="mandatory">gssproxy</packagereq>
       <packagereq type="mandatory">nfs4-acl-tools</packagereq>
       <packagereq type="mandatory">nfs-utils</packagereq>
@@ -1774,8 +1744,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="mandatory">vsftpd</packagereq>
-	          <packagereq type="mandatory">vsftpd</packagereq>
+      <packagereq type="mandatory">vsftpd</packagereq>
       <packagereq type="optional">xferstats</packagereq>
    </packagelist>
   </group>
@@ -1786,9 +1755,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="mandatory">hyperv-daemons</packagereq>
-	          <packagereq type="mandatory">hyperv-daemons</packagereq>
-      <packagereq type="mandatory">open-vm-tools</packagereq>
+      <packagereq type="mandatory">hyperv-daemons</packagereq>
       <packagereq type="mandatory">qemu-guest-agent</packagereq>
    </packagelist>
   </group>
@@ -1799,8 +1766,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="default">rasdaemon</packagereq>
-	          <packagereq type="default">rasdaemon</packagereq>
+      <packagereq type="default">rasdaemon</packagereq>
       <packagereq type="default">smartmontools</packagereq>
       <packagereq type="optional">edac-utils</packagereq>
       <packagereq type="optional">lm_sensors</packagereq>
@@ -1814,8 +1780,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="default">389-ds-base</packagereq>
-	          <packagereq type="default">389-ds-base</packagereq>
+      <packagereq type="default">389-ds-base</packagereq>
       <packagereq type="default">ipa-admintools</packagereq>
       <packagereq type="default">ipa-server</packagereq>
       <packagereq type="default">pki-ca</packagereq>
@@ -1831,7 +1796,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq requires="glusterfs" type="conditional">glusterfs-rdma</packagereq>
+      <packagereq requires="glusterfs" type="conditional">glusterfs-rdma</packagereq>
       <packagereq type="default">dapl</packagereq>
       <packagereq type="default">ibacm</packagereq>
       <packagereq type="default">ibutils</packagereq>
@@ -1845,7 +1810,6 @@
       <packagereq type="default">libmthca</packagereq>
       <packagereq type="default">libnes</packagereq>
       <packagereq type="mandatory">libibcm</packagereq>
-	          <packagereq type="mandatory">libibcm</packagereq>
       <packagereq type="mandatory">libibverbs</packagereq>
       <packagereq type="mandatory">libibverbs-utils</packagereq>
       <packagereq type="mandatory">librdmacm</packagereq>
@@ -1868,11 +1832,10 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="default">hwloc</packagereq>
+      <packagereq type="default">hwloc</packagereq>
       <packagereq type="default">libhugetlbfs</packagereq>
       <packagereq type="default">libhugetlbfs-utils</packagereq>
       <packagereq type="mandatory">numactl</packagereq>
-	          <packagereq type="mandatory">numactl</packagereq>
       <packagereq type="mandatory">numad</packagereq>
    </packagelist>
   </group>
@@ -1883,9 +1846,8 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="default">keepalived</packagereq>
+      <packagereq type="default">keepalived</packagereq>
       <packagereq type="mandatory">ipvsadm</packagereq>
-	          <packagereq type="mandatory">ipvsadm</packagereq>
       <packagereq type="optional">haproxy</packagereq>
    </packagelist>
   </group>
@@ -1896,8 +1858,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="default">dovecot</packagereq>
-	          <packagereq type="default">dovecot</packagereq>
+      <packagereq type="default">dovecot</packagereq>
       <packagereq type="default">postfix</packagereq>
       <packagereq type="default">spamassassin</packagereq>
       <packagereq type="optional">cyrus-imapd</packagereq>
@@ -1917,8 +1878,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="mandatory">mariadb-server</packagereq>
-	          <packagereq type="mandatory">mariadb-server</packagereq>
+      <packagereq type="mandatory">mariadb-server</packagereq>
       <packagereq type="optional">mariadb-bench</packagereq>
       <packagereq type="optional">mariadb-test</packagereq>
    </packagelist>
@@ -1930,10 +1890,9 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="default">mysql-connector-odbc</packagereq>
+      <packagereq type="default">mysql-connector-odbc</packagereq>
       <packagereq type="default">MySQL-python</packagereq>
       <packagereq type="mandatory">mariadb</packagereq>
-	          <packagereq type="mandatory">mariadb</packagereq>
       <packagereq type="optional">libdbi-dbd-mysql</packagereq>
       <packagereq type="optional">mysql-connector-java</packagereq>
       <packagereq type="optional">perl-DBD-MySQL</packagereq>
@@ -1946,8 +1905,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="optional">dhcp</packagereq>
-	          <packagereq type="optional">dhcp</packagereq>
+      <packagereq type="optional">dhcp</packagereq>
       <packagereq type="optional">dnsmasq</packagereq>
       <packagereq type="optional">freeradius</packagereq>
       <packagereq type="optional">quagga</packagereq>
@@ -1968,8 +1926,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="mandatory">ImageMagick-perl</packagereq>
-	          <packagereq type="mandatory">ImageMagick-perl</packagereq>
+      <packagereq type="mandatory">ImageMagick-perl</packagereq>
       <packagereq type="mandatory">perl-App-cpanminus</packagereq>
       <packagereq type="mandatory">perl-core</packagereq>
       <packagereq type="mandatory">perl-CPAN</packagereq>
@@ -1987,12 +1944,11 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="default">php-gd</packagereq>
+      <packagereq type="default">php-gd</packagereq>
       <packagereq type="default">php-pdo</packagereq>
       <packagereq type="default">php-pear</packagereq>
       <packagereq type="default">php-xml</packagereq>
       <packagereq type="mandatory">php</packagereq>
-	          <packagereq type="mandatory">php</packagereq>
       <packagereq type="optional">php-imap</packagereq>
       <packagereq type="optional">php-ldap</packagereq>
       <packagereq type="optional">php-mysql</packagereq>
@@ -2011,8 +1967,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="mandatory">atk-devel</packagereq>
-	          <packagereq type="mandatory">atk-devel</packagereq>
+      <packagereq type="mandatory">atk-devel</packagereq>
       <packagereq type="mandatory">cairo-devel</packagereq>
       <packagereq type="mandatory">dbus-devel</packagereq>
       <packagereq type="mandatory">desktop-file-utils</packagereq>
@@ -2064,9 +2019,8 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="default">postgresql-docs</packagereq>
+      <packagereq type="default">postgresql-docs</packagereq>
       <packagereq type="mandatory">postgresql-server</packagereq>
-	          <packagereq type="mandatory">postgresql-server</packagereq>
       <packagereq type="optional">postgresql-contrib</packagereq>
       <packagereq type="optional">postgresql-plperl</packagereq>
       <packagereq type="optional">postgresql-plpython</packagereq>
@@ -2082,11 +2036,10 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="default">postgresql-odbc</packagereq>
+      <packagereq type="default">postgresql-odbc</packagereq>
       <packagereq type="default">PyGreSQL</packagereq>
       <packagereq type="default">python-psycopg2</packagereq>
       <packagereq type="mandatory">postgresql</packagereq>
-	          <packagereq type="mandatory">postgresql</packagereq>
       <packagereq type="optional">libdbi-dbd-pgsql</packagereq>
       <packagereq type="optional">perl-DBD-Pg</packagereq>
       <packagereq type="optional">postgresql-jdbc</packagereq>
@@ -2100,7 +2053,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="mandatory">cups</packagereq>
+      <packagereq type="mandatory">cups</packagereq>
       <packagereq type="mandatory">ghostscript-cups</packagereq>
       <packagereq type="default">foomatic</packagereq>
       <packagereq type="default">foomatic-filters</packagereq>
@@ -2117,14 +2070,13 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="mandatory">freetype-devel</packagereq>
+      <packagereq type="mandatory">freetype-devel</packagereq>
       <packagereq type="mandatory">libcurl-devel</packagereq>
       <packagereq type="mandatory">libcurl</packagereq>
       <packagereq type="mandatory">libjpeg-turbo-devel</packagereq>
       <packagereq type="mandatory">libjpeg-turbo</packagereq>
       <packagereq type="mandatory">mod_wsgi</packagereq>
       <packagereq type="mandatory">MySQL-python</packagereq>
-	          <packagereq type="mandatory">MySQL-python</packagereq>
       <packagereq type="mandatory">numpy-f2py</packagereq>
       <packagereq type="mandatory">numpy</packagereq>
       <packagereq type="mandatory">python-magic</packagereq>
@@ -2140,8 +2092,7 @@
    <default>false</default>
    <uservisible>true</uservisible>
    <packagelist>
-         <packagereq type="optional">atlas</packagereq>
-	          <packagereq type="optional">atlas</packagereq>
+      <packagereq type="optional">atlas</packagereq>
       <packagereq type="optional">fftw-devel</packagereq>
       <packagereq type="optional">fftw</packagereq>
       <packagereq type="optional">fftw-static</packagereq>
@@ -2167,8 +2118,7 @@
    <default>false</default>
    <uservisible>true</uservisible>
    <packagelist>
-         <packagereq type="optional">conman</packagereq>
-	          <packagereq type="optional">conman</packagereq>
+      <packagereq type="optional">conman</packagereq>
       <packagereq type="optional">crypto-utils</packagereq>
       <packagereq type="optional">dump</packagereq>
       <packagereq type="optional">expect</packagereq>
@@ -2195,7 +2145,7 @@
    <default>false</default>
    <uservisible>true</uservisible>
    <packagelist>
-         <packagereq type="optional">fence-agents-all</packagereq>
+      <packagereq type="optional">fence-agents-all</packagereq>
       <packagereq type="optional">freeipmi-bmc-watchdog</packagereq>
       <packagereq type="optional">freeipmi-ipmidetectd</packagereq>
       <packagereq type="optional">freeipmi</packagereq>
@@ -2213,12 +2163,11 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="default">crypto-utils</packagereq>
+      <packagereq type="default">crypto-utils</packagereq>
       <packagereq type="default">httpd-manual</packagereq>
       <packagereq type="default">mod_fcgid</packagereq>
       <packagereq type="default">mod_ssl</packagereq>
       <packagereq type="mandatory">httpd</packagereq>
-	          <packagereq type="mandatory">httpd</packagereq>
       <packagereq type="optional">certmonger</packagereq>
       <packagereq type="optional">libmemcached</packagereq>
       <packagereq type="optional">memcached</packagereq>
@@ -2240,9 +2189,8 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="mandatory">tomcat-admin-webapps</packagereq>
+      <packagereq type="mandatory">tomcat-admin-webapps</packagereq>
       <packagereq type="mandatory">tomcat</packagereq>
-	          <packagereq type="mandatory">tomcat</packagereq>
       <packagereq type="mandatory">tomcat-webapps</packagereq>
    </packagelist>
   </group>
@@ -2253,7 +2201,7 @@
    <default>false</default>
    <uservisible>false</uservisible>
    <packagelist>
-         <packagereq type="mandatory">libcmpiCppImpl0</packagereq>
+      <packagereq type="mandatory">libcmpiCppImpl0</packagereq>
    </packagelist>
   </group>
   <category>
@@ -2405,8 +2353,7 @@
    <description>GNOME is a highly intuitive and user friendly desktop environment.</description>
    <display_order>80</display_order>
    <grouplist>
-         <groupid>base</groupid>
-	           <groupid>base</groupid>
+      <groupid>base</groupid>
       <groupid>core</groupid>
       <groupid>desktop-debugging</groupid>
       <groupid>dial-up</groupid>
@@ -2423,8 +2370,7 @@
       <groupid>x11</groupid>
    </grouplist>
    <optionlist>
-         <groupid>backup-client</groupid>
-	           <groupid>backup-client</groupid>
+      <groupid>backup-client</groupid>
       <groupid>gnome-apps</groupid>
       <groupid>internet-applications</groupid>
       <groupid>legacy-x</groupid>
@@ -2438,8 +2384,7 @@
    <description>The KDE Plasma Workspaces, a highly-configurable graphical user interface which includes a panel, desktop, system icons and desktop widgets, and many powerful KDE applications.</description>
    <display_order>85</display_order>
    <grouplist>
-         <groupid>base</groupid>
-	           <groupid>base</groupid>
+      <groupid>base</groupid>
       <groupid>core</groupid>
       <groupid>desktop-debugging</groupid>
       <groupid>dial-up</groupid>
@@ -2456,8 +2401,7 @@
       <groupid>x11</groupid>
    </grouplist>
    <optionlist>
-         <groupid>backup-client</groupid>
-	           <groupid>backup-client</groupid>
+      <groupid>backup-client</groupid>
       <groupid>internet-applications</groupid>
       <groupid>kde-apps</groupid>
       <groupid>kde-media</groupid>
@@ -2472,7 +2416,7 @@
    <description>Basic functionality.</description>
    <display_order>5</display_order>
    <grouplist>
-         <groupid>core</groupid>
+      <groupid>core</groupid>
    </grouplist>
    <optionlist>
    
@@ -2484,11 +2428,11 @@
    <description>Server for operating network infrastructure services.</description>
    <display_order>10</display_order>
    <grouplist>
-         <groupid>base</groupid>
+      <groupid>base</groupid>
       <groupid>core</groupid>
    </grouplist>
    <optionlist>
-         <groupid>backup-server</groupid>
+      <groupid>backup-server</groupid>
       <groupid>directory-client</groupid>
       <groupid>directory-server</groupid>
       <groupid>dns-server</groupid>
@@ -2519,13 +2463,13 @@
    <description>File, print, and storage server for enterprises.</description>
    <display_order>20</display_order>
    <grouplist>
-         <groupid>base</groupid>
+      <groupid>base</groupid>
       <groupid>core</groupid>
       <groupid>file-server</groupid>
       <groupid>print-server</groupid>
    </grouplist>
    <optionlist>
-         <groupid>backup-client</groupid>
+      <groupid>backup-client</groupid>
       <groupid>backup-server</groupid>
       <groupid>directory-client</groupid>
       <groupid>guest-agents</groupid>
@@ -2545,12 +2489,12 @@
    <description>Server for serving static and dynamic internet content.</description>
    <display_order>30</display_order>
    <grouplist>
-         <groupid>base</groupid>
+      <groupid>base</groupid>
       <groupid>core</groupid>
       <groupid>web-server</groupid>
    </grouplist>
    <optionlist>
-         <groupid>backup-client</groupid>
+      <groupid>backup-client</groupid>
       <groupid>directory-client</groupid>
       <groupid>guest-agents</groupid>
       <groupid>hardware-monitoring</groupid>
@@ -2574,13 +2518,13 @@
    <description>Minimal virtualization host.</description>
    <display_order>40</display_order>
    <grouplist>
-         <groupid>base</groupid>
+      <groupid>base</groupid>
       <groupid>core</groupid>
       <groupid>virtualization-hypervisor</groupid>
       <groupid>virtualization-tools</groupid>
    </grouplist>
    <optionlist>
-         <groupid>network-file-system-client</groupid>
+      <groupid>network-file-system-client</groupid>
       <groupid>remote-system-management</groupid>
       <groupid>virtualization-platform</groupid>
    </optionlist>
@@ -2591,7 +2535,7 @@
    <description>Server for operating network infrastructure services, with a GUI.</description>
    <display_order>50</display_order>
    <grouplist>
-         <groupid>base</groupid>
+      <groupid>base</groupid>
       <groupid>core</groupid>
       <groupid>desktop-debugging</groupid>
       <groupid>dial-up</groupid>
@@ -2605,7 +2549,7 @@
       <groupid>x11</groupid>
    </grouplist>
    <optionlist>
-         <groupid>backup-server</groupid>
+      <groupid>backup-server</groupid>
       <groupid>directory-server</groupid>
       <groupid>dns-server</groupid>
       <groupid>file-server</groupid>
@@ -2639,7 +2583,7 @@
    <description>Workstation for software, hardware, graphics, or content development.</description>
    <display_order>90</display_order>
    <grouplist>
-         <groupid>base</groupid>
+      <groupid>base</groupid>
       <groupid>core</groupid>
       <groupid>debugging</groupid>
       <groupid>desktop-debugging</groupid>
@@ -2665,7 +2609,7 @@
       <groupid>x11</groupid>
    </grouplist>
    <optionlist>
-         <groupid>additional-devel</groupid>
+      <groupid>additional-devel</groupid>
       <groupid>backup-client</groupid>
       <groupid>compat-libraries</groupid>
       <groupid>development</groupid>
