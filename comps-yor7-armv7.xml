@@ -50,6 +50,34 @@
    </packagelist>
   </group>
   <group>
+   <id>arm-create</id>
+   <name>Arm Extra</name>
+   <description>Packages needed for building an arm image.</description>
+   <default>false</default>
+   <uservisible>false</uservisible>
+   <packagelist>
+      <packagereq type="default">arm-boot-config</packagereq>
+      <packagereq type="default">grubby</packagereq>
+      <packagereq type="default">uboot-tools</packagereq>
+      <packagereq type="default">uboot-images-armv7</packagereq>
+   </packagelist>
+  </group>
+  <group>
+   <id>arm-create-kernel</id>
+   <name>Arm Extra Plus Kernel</name>
+   <description>Packages needed for building an arm image, with a kernel.</description>
+   <default>false</default>
+   <uservisible>false</uservisible>
+   <packagelist>
+      <packagereq type="default">arm-boot-config</packagereq>
+      <packagereq type="default">grubby</packagereq>
+      <packagereq type="default">hwdata</packagereq>
+      <packagereq type="default">kernel</packagereq>
+      <packagereq type="default">uboot-tools</packagereq>
+      <packagereq type="default">uboot-images-armv7</packagereq>
+   </packagelist>
+  </group>
+  <group>
    <id>base</id>
    <name>Base</name>
    <description>The basic installation of Yor Linux.</description>
