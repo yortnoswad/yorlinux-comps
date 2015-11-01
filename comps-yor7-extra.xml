@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE comps PUBLIC "-//Red Hat, Inc.//DTD Comps info//EN" "comps.dtd">
+<comps>
+  <group>
+    <id>xfce-desktop</id>
+    <name>Xfce</name>
+    <description>A lightweight desktop environment that works well on low end machines.</description>
+    <default>false</default>
+    <uservisible>true</uservisible>
+    <packagelist>
+      <packagereq type="mandatory">NetworkManager-gnome</packagereq>
+      <packagereq type="mandatory">openssh-askpass</packagereq>
+      <packagereq type="mandatory">orage</packagereq>
+      <packagereq type="mandatory">polkit-gnome</packagereq>
+      <packagereq type="mandatory">Thunar</packagereq>
+      <packagereq type="mandatory">thunar-volman</packagereq>
+      <packagereq type="mandatory">tumbler</packagereq>
+      <packagereq type="mandatory">xfce4-appfinder</packagereq>
+      <packagereq type="mandatory">xfce4-panel</packagereq>
+      <packagereq type="mandatory">xfce4-power-manager</packagereq>
+      <packagereq type="mandatory">xfce4-session</packagereq>
+      <packagereq type="mandatory">xfce4-settings</packagereq>
+      <packagereq type="mandatory">xfce4-session-engines</packagereq>
+      <packagereq type="mandatory">xfce4-terminal</packagereq>
+      <packagereq type="mandatory">xfce-utils</packagereq>
+      <packagereq type="mandatory">xfconf</packagereq>
+      <packagereq type="mandatory">xfdesktop</packagereq>
+      <packagereq type="mandatory">xfwm4</packagereq>
+      <packagereq type="conditional" requires="pinentry">pinentry-gtk</packagereq>
+      <packagereq type="default">gdm</packagereq>
+      <packagereq type="default">leafpad</packagereq>
+      <packagereq type="default">thunar-archive-plugin</packagereq>
+      <packagereq type="default">xfce4-icon-theme</packagereq>
+      <packagereq type="default">xfce4-mixer</packagereq>
+      <packagereq type="default">xfwm4-theme-nodoka</packagereq>
+      <packagereq type="optional">xfwm4-themes</packagereq>
+    </packagelist>
+  </group>
+  <category>
+    <id>desktops</id>
+    <display_order>70</display_order>
+    <name>Desktops</name>
+    <description>Desktops and thin clients.</description>
+    <grouplist>
+      <groupid>xfce-desktop</groupid>
+    </grouplist>
+  </category>
+</comps>
