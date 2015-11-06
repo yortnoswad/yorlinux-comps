@@ -45,4 +45,36 @@
       <groupid>xfce-desktop</groupid>
     </grouplist>
   </category>
+  <environment>
+   <id>xfce-desktop-environment</id>
+   <name>XFCE Workspaces</name>
+   <description>The XFCE Workspace.</description>
+   <display_order>86</display_order>
+   <grouplist>
+      <groupid>base</groupid>
+      <groupid>core</groupid>
+      <groupid>desktop-debugging</groupid>
+      <groupid>dial-up</groupid>
+      <groupid>directory-client</groupid>
+      <groupid>fonts</groupid>
+      <groupid>guest-agents</groupid>
+      <groupid>guest-desktop-agents</groupid>
+      <groupid>input-methods</groupid>
+      <groupid>internet-browser</groupid>
+      <groupid>java-platform</groupid>
+      <groupid>multimedia</groupid>
+      <groupid>network-file-system-client</groupid>
+      <groupid>print-client</groupid>
+      <groupid>x11</groupid>
+      <groupid>xfce-desktop</groupid>
+   </grouplist>
+   <optionlist>
+      <groupid>backup-client</groupid>
+      <groupid>internet-applications</groupid>
+      <groupid>legacy-x</groupid>
+      <groupid>office-suite</groupid>
+      <groupid>remote-desktop-clients</groupid>
+      <groupid>smart-card</groupid>
+   </optionlist>
+  </environment>
 </comps>
